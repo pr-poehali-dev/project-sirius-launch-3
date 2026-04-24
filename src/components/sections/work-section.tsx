@@ -15,32 +15,32 @@ export function WorkSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Проекты
+            Дашборды
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Избранные работы</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Примеры визуализаций</p>
         </div>
 
         <div className="space-y-6 md:space-y-8">
           {[
             {
               number: "01",
-              title: "ТехноСтарт",
-              category: "Корпоративный портал",
+              title: "Анализ продаж",
+              category: "Динамика выручки по жанрам и издательствам",
               year: "2024",
               direction: "left",
             },
             {
               number: "02",
-              title: "АльфаТрейд",
-              category: "Финтех платформа",
+              title: "Рейтинг книг",
+              category: "ТОП продаж с трендами и прогнозами",
               year: "2024",
               direction: "right",
             },
             {
               number: "03",
-              title: "МедиаПульс",
-              category: "Медиа сервис",
-              year: "2023",
+              title: "Карта дистрибуции",
+              category: "Географическое распределение торговых точек",
+              year: "2024",
               direction: "left",
             },
           ].map((project, i) => (
